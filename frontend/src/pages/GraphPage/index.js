@@ -1,17 +1,27 @@
 import React from 'react';
-import Header from '../../components/Header'
-import SideBar from '../../components/SideBar'
+import './style.css';
+
+import Header from '../../components/Header';
+import SideMenu from '../../components/Sidemenu';
+import DataContainer from '../../components/Datacontainer';
 
 
-function GraphPage() {
+
+
+
+
+
+//pagina de renderização
+export default function GraphPage(){
     return(
         <>
-            <Header/>
-            <div>
-                <SideBar/>
-            </div>
+      <Header/>
+      <div className = 'main-container'>
+      <SideMenu/>
+      <DataContainer/>
+        </div>
+
         </>
     );
-}
 
-export default GraphPage;
+}

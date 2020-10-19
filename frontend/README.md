@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##O Projeto
+Pagina de front-end desenvolvida em react.js, com auxilio de bibliotecas do bootstrap e uso da biblioteca charts.js-2 para o desenvolvimento do grafico. Menu lateral linkável e header com logo tambem linkavel a pagina inicial.
+A tabela possui valores editáveis nas colunas de "capacidade e "atendimento realizado", alterando-se simultaneamente o grafico. o front também conta com um botao de voltar ao topo da pagina.
+obs.: todos os valores da tabela sao ficticios e de entrada manual.
+
+
+.
 
 ## Available Scripts
 
@@ -37,11 +43,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
@@ -66,3 +67,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+

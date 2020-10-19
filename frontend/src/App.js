@@ -1,11 +1,15 @@
+//responsavel por colocar o conteudo da pagina na pagina
+//usamos jsx
+
 import React from 'react';
 import './global.css';
-import Routes from './routes';
+import { Routes } from './assets/routes';
+
 
 function App() {
   return (
-    <Routes />
+    <Routes/>
   );
 }
- 
+
 export default App;

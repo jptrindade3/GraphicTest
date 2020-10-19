@@ -1,0 +1,70 @@
+
+
+.box-title-img{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.label-tabela{
+   /* background-color: darkgrey;*/
+   
+    background:none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50px;
+    
+}  
+
+.main-data-container{
+    min-width: 75%;
+    padding:10px ; /* espaco entre e a borda */
+    margin: 0;
+}
+
+.graph-box{
+    min-height: 45%;
+    min-width: 60%;
+}
+
+.table-box{
+    min-height: calx(55%-35px);
+    
+
+
+}
+.table-style{
+    align-items: center;
+    border-color: rgb(128, 128, 128);
+}
+.title-box{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    min-height: calc(55%-35px);
+}
+
+th, td{
+    border: rgb(128, 128, 128);
+    width: 100%;
+    text-align: center;
+    
+}
+.colum-top{
+    background-color: rgb(190, 190, 190);
+
+}
+input{
+    border: none;
+    display: flex;
+    text-align: center;
+    background: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
